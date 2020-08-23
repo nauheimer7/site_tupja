@@ -4,6 +4,7 @@ body {
 
 header{
     width: 100%;
+    position: fixed;
     background: #232323;
 }
 
@@ -22,9 +23,11 @@ header{
 }
 
 nav{
-    position: absolute;
+    position: relative;
     right: 0px;
-    top: 50px;
+    text-align: right;
+    padding: 1em 0;
+    
     
 }
 
@@ -83,11 +86,17 @@ a img{
     
 }
 
+
+
+.conteudo-principal{
+    background:linear-gradient(#FEFEFE, #888888);
+}
+
 .conteudo-tenda{
     width: 940px;
     margin: 0 auto;
     padding: 2em 0;
-    background:white;
+   
     text-indent: 7%;
     text-align: justify;
     line-height: 1.5;
@@ -99,7 +108,7 @@ a img{
     width: 940px;
     margin: 0 auto;
     padding: 2em 0;
-    background: white;
+ 
     text-indent: 7%;
     text-align: justify;
     line-height: 1.5;
@@ -107,17 +116,49 @@ a img{
 
 .video{
     width: 560px;
-    margin: 2em auto;
+    margin: 1em auto;
+    padding: 3em 0;
+
 }
 
+.atendimento{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.atendimento p{
+    margin: 0 0 1em 0;
+    font-weight: bold;
+}
+
+#titulo-atendimento{
+    text-align: left;
+}
+
+table{
+    width: ;
+    margin: 1em 0 0 0;
+    
+}
+
+thead{
+    background: lightcoral;
+    font-weight: bold;
+}
+
+td, th{
+    padding: 5px;
+    border: 2px solid black;
+}
 
 footer{
-    background: darkred;;
+    background: url("imagens/bg.jpg");
     font-style: inherit;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     text-align: center;
     padding: 50px 0 50px 0;
+    
 }
 
 #pretin{
