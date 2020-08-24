@@ -4,16 +4,11 @@ body {
 
 header{
     width: 100%;
+    height: auto;
     position: fixed;
     background: #232323;
 }
 
-
-
-.pretin1{
-    text-align: left;
-    padding: 10px 0 10px 0;
-}
 
 .caixa{
     position: relative;
@@ -22,12 +17,23 @@ header{
     
 }
 
+.logo{
+    font-size: 22px;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 30px;
+
+}
+.primeiro{
+    position: relative;
+    left: 10px;
+}
+
 nav{
     position: relative;
-    right: 0px;
     text-align: right;
-    padding: 1em 0;
-    
+    bottom: 30px;
     
 }
 
@@ -48,6 +54,12 @@ nav a {
     color: white;
     font-size: 16px;
     text-decoration:none;
+}
+
+.navegaçao{
+    position: relative;
+    right: 180px;
+    top: 20px;
 }
 
 #banner{
@@ -76,7 +88,10 @@ a img{
     
 }
 
-
+.titulo-sobrenos{
+    font-size: 2em;
+    text-align: left;
+}
 
 .titulo-principal{
     text-align: center;
@@ -87,7 +102,6 @@ a img{
 }
 
 
-
 .conteudo-principal{
     background:linear-gradient(#FEFEFE, #888888);
 }
@@ -95,13 +109,9 @@ a img{
 .conteudo-tenda{
     width: 940px;
     margin: 0 auto;
-    padding: 2em 0;
-   
-    text-indent: 7%;
-    text-align: justify;
-    line-height: 1.5;
-    
+    line-height: 1.5;    
 }
+
 
 
 .conteudo-maesula{
@@ -136,7 +146,6 @@ a img{
 }
 
 table{
-    width: ;
     margin: 1em 0 0 0;
     
 }
