@@ -25,7 +25,7 @@ header{
     left: 30px;
 
 }
-.primeiro{
+.primeira-frase-logo{
     position: relative;
     left: 10px;
 }
@@ -69,6 +69,9 @@ nav a {
     height: auto;
 }
 
+main{
+    
+}
 
 
 a img{
@@ -78,32 +81,25 @@ a img{
 
 
 
-#tenda, #mae{
+#mae{
     max-width: 270px;
     max-height: 220px;
     width: auto;
     height: auto;
     float: left;
-    margin: 0 20px 20px 0;
+    margin: 15px 20px 20px 20px;
     
-}
-
-.titulo-sobrenos{
-    font-size: 2em;
-    text-align: left;
 }
 
 .titulo-principal{
-    text-align: center;
+    text-align: left;
     font-size: 2em;
-    margin: 0 0 10px 0;
-    
-    
+    margin: 0 0 10px 6px; 
+    padding: 15px;   
 }
 
-
 .conteudo-principal{
-    background:linear-gradient(#FEFEFE, #888888);
+    
 }
 
 .conteudo-tenda{
@@ -112,16 +108,56 @@ a img{
     line-height: 1.5;    
 }
 
+.titulo-sobrenos{
+    font-size: 2em;
+    text-align: left;
+    padding: 15px;
+    margin: 0 0 0 6px;
+}
 
+.bloco1-tenda{
+    margin: 0 0 0 20px;
+}
 
-.conteudo-maesula{
+.caixa1{
+    width: 31%;
+    position: static;
+    font-size: 1.5em;
+    text-align: left;
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+    color: black;
+    
+}
+
+.bloco2-tenda{
+    margin: 0 0 0 20px;
+}
+
+.caixa2{
+    width: 31%;
+    position: static;
+    font-size: 16px;
+    text-align: justify;
+    display: inline-flex;
+    padding: 10px 10px 10px 0;
+    margin: 10px 0 0 0;
+    color: black;
+    line-height: 1.75;
+    
+    
+}
+
+.maesula{
     width: 940px;
     margin: 0 auto;
     padding: 2em 0;
- 
-    text-indent: 7%;
     text-align: justify;
     line-height: 1.5;
+}
+
+.conteudo-maesula{
+    text-indent: 7%;
 }
 
 .video{
@@ -161,7 +197,7 @@ td, th{
 }
 
 footer{
-    background: url("imagens/bg.jpg");
+    background:#232323;
     font-style: inherit;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
