@@ -5,8 +5,12 @@ body {
 header{
     width: 100%;
     height: auto;
-    position: fixed;
+    position: relative;
     background: #232323;
+}
+
+form{
+    padding: 50px;
 }
 
 
@@ -69,9 +73,7 @@ nav a {
     height: auto;
 }
 
-main{
-    
-}
+
 
 
 a img{
@@ -99,7 +101,7 @@ a img{
 }
 
 .conteudo-principal{
-    
+    background:#cdf7f4;
 }
 
 .conteudo-tenda{
@@ -124,9 +126,11 @@ a img{
     position: static;
     font-size: 1.5em;
     text-align: left;
-    display: inline-block;
+    display: inline-flex;
     padding: 10px 10px 10px 0;
     color: black;
+    background: #92f3ed;
+    border-radius: 5px;
     
 }
 
@@ -144,6 +148,7 @@ a img{
     margin: 10px 0 0 0;
     color: black;
     line-height: 1.75;
+ 
     
     
 }
@@ -163,7 +168,7 @@ a img{
 .video{
     width: 560px;
     margin: 1em auto;
-    padding: 3em 0;
+    padding: 2em 0;
 
 }
 
@@ -173,7 +178,7 @@ a img{
 }
 
 .atendimento p{
-    margin: 0 0 1em 0;
+    margin: 0 0 1em 20px;
     font-weight: bold;
 }
 
@@ -181,8 +186,13 @@ a img{
     text-align: left;
 }
 
+
+
 table{
-    margin: 1em 0 0 0;
+    position: relative;
+    margin: 2em 0 0 20px;
+    left: 30%;
+
     
 }
 
@@ -196,7 +206,24 @@ td, th{
     border: 2px solid black;
 }
 
+.vaquinha{
+    width: 940px;
+    margin: 10px auto;
+    padding: 20px 0;
+}
+
+
+.vaquinha p{
+    margin: 0 0 0 22px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.75;
+    
+}
+
+
 footer{
+    position: relative;
     background:#232323;
     font-style: inherit;
     font-family: Georgia, 'Times New Roman', Times, serif;
