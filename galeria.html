@@ -2,31 +2,87 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
         <title>Galeria - T.U.P.J.A</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+    
         
         
     </head>
     <body>
         <header>
-                <img src="" alt="">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="galeria.html">Galeria</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
+            <div class="caixa">
+                <div class="logo">
+                     <p class="primeira-frase-logo">
+                         TENDA DE UMBANDA
+                     </p>
+                     
+                     <p>
+                         PAI JACOB DE ARUANDA
+                     </p>
+                 </div>
+                 <nav>
+                     <ul class="navegaçao">
+                         <li><a href="index.html">Início</a></li>
+                         <li><a href="galeria.html">Galeria</a></li>
+                         <li><a href="contato.html">Contato</a></li>                    
+                     </ul>
+ 
+                     <ul>
+                         <li id="icone"><a href="https://instagram.com/tenda_pai_jacob_de_aruanda/"><img src="imagens/insta.png" class="icones" alt=""></a></li>
+                         <li id="icone"><a href="https://www.facebook.com/MaeUrsula"><img src="imagens/facebook.png" class="icones" alt=""></a></li>
+                         <li id="icone"><a href="https://www.youtube.com/c/TendadeUmbandaPaiJacobdeAruanda/videos"><img src="imagens/youtube.png" class="icones" alt=""></a></li>
+                     </ul>
+                 </nav>    
+             </div>
         </header>
 
         <main>
 
+            <div class="wrap">
+        
+                <section class="container gallery-container">
+        
+                    
+                    <div class="mySlides fade">
+                        
+                        <div class="numbertext">00 / 05</div>
+                        <img class="imgslide" src="imagens-festa-exu/49658103_1170319713130914_2890148472038621184_o.jpg" alt="Arara Azul" />
+                        <div class="text">Sr. Tranca Rua das Almas</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        
+                        <div class="numbertext">01 / 05</div>
+                        <img class="imgslide" src="imagens-festa-exu/veludo.jpg" alt="Arara Azul" />
+                        <div class="text">Sr. Veludo</div>
+                    </div>
+    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </section>
+            
+            </div>
+    
+            <script src="comportamento.js"></script>
+
         </main>
 
-        <footer>
-            <img>
-            <P class="copyright"> &copy; Copyright </P>
+
+        <footer>   
+            <img id="pretin" src="imagens/pretin.png" alt="" width="">
+            <p><strong>Tenda de Umbanda Pai Jacob de Aruanda</strong></p>
+            <br>
+            <p>Avenida Carnaval, 399 - Guarani</p>
+            <br>
+            <p>Fone: (YY) (YYYYY-YYYY)</p>
+            <br>
+            <p class="copyright"> &copy; Copyright - 2020 - Todos os direitos reservados.</p>
+        
         </footer>
+
+
+
     </body>
 </html>
