@@ -74,14 +74,10 @@ nav a {
 }
 
 
-
-
 a img{
     width: 25px;
     height: 25px;
 }
-
-
 
 #mae{
     max-width: 270px;
@@ -101,7 +97,7 @@ a img{
 }
 
 .conteudo-principal{
-    background:#cdf7f4;
+    background:#dcfffb;
 }
 
 .conteudo-tenda{
@@ -148,8 +144,7 @@ a img{
     margin: 10px 0 0 0;
     color: black;
     line-height: 1.75;
- 
-    
+  
     
 }
 
@@ -239,5 +234,113 @@ footer{
     width: auto;
     height: auto;
 }
+
+
+gallery-container {
+    width: 90%;
+    position: relative;
+    margin: 0 5%;
+    background: #333;
+    padding: 2px;
+  }
+    @media (min-width: 480px) {
+        .gallery-container {
+          width: 800px;
+          margin: auto;
+        }
+    }
+  
+
+.gallery-container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mySlides {
+    display: block;
+ 
+  }
+  
+  
+.prev, .next {
+    position: absolute;
+    top: 60%;
+    padding: 30px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,0,0,0.1);
+  }
+  
+
+.prev{
+      left: 100px;
+  }
+  
+.next {
+    right: 100px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+.text {
+    color: #9e0606;
+    font-size: 16px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+  }
+  
+.imgslide {
+    max-width: 900px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+    
+  }
+  
+.numbertext {
+    color: #c91111;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    top: 50%;
+  }
+  @media (max-width: 768px) {
+.numbertext {
+      top: 15px;
+    }
+  }
+  
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
 
 
